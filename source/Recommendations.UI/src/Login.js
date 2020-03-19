@@ -15,7 +15,7 @@ export default function Login(props) {
   return (
     <Modal show={props.show} className='login'>
       <Modal.Header>
-        <Modal.Title>Automated recommendation system</Modal.Title>
+        <Modal.Title>Automated Recommendation System</Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <h5>Welcome! Enter your Admin API Key &nbsp; { props.pendingLogin? <img src={loadingImg} alt='Loading' />: null }</h5>
